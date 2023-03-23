@@ -12,5 +12,11 @@ public class IndexController {
 	public String index(Model model){
 		return "index";
 	}
+	
+	@GetMapping("/perfil")
+	public String perfil(Model model){
+		return "perfil";
+	}
+
 
 }
