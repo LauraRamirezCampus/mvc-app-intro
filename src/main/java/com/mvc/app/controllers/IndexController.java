@@ -18,5 +18,10 @@ public class IndexController {
 		return "perfil";
 	}
 
+	@GetMapping("/nuevo")
+	public String nuevo(Model model){
+		return "nuevo";
+	}
+
 
 }
